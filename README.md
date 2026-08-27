@@ -13,7 +13,7 @@ A small Python calculator library for basic arithmetic operations.
 - Python Package
 
 ## Installation
-1. Install at least Python 3.14.7  ([Python 3.14.7 Windows 64-bit installer](https://www.python.org/ftp/python/3.14.7/python-3.14.7-amd64.exe) | [Windows 3.14.7 32-bit installer](https://www.python.org/ftp/python/3.14.7/python-3.14.7.exe) | [Python 3.14.7 macOS installer](https://www.python.org/ftp/python/3.14.7/python-3.14.7-macos11.pkg) | [All releases](https://www.python.org/downloads/))
+1. Install at least Python 3.9  ([Python 3.14.7 Windows 64-bit installer](https://www.python.org/ftp/python/3.14.7/python-3.14.7-amd64.exe) | [Windows 3.14.7 32-bit installer](https://www.python.org/ftp/python/3.14.7/python-3.14.7.exe) | [Python 3.14.7 macOS installer](https://www.python.org/ftp/python/3.14.7/python-3.14.7-macos11.pkg) | [All releases](https://www.python.org/downloads/))
 2. Run: ``` py -m pip install git+https://github.com/alessioiskuhl/Calculator.git ``` in the terminal of your choice
 
 ## Library usage
