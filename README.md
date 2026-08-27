@@ -18,6 +18,7 @@ A small python calculator
 ## Usage
 1. Assign an object to the class from the Calculator library
 2. Use the following format to perform a calculation: yourObject.calc(float(firstNumber), mathExpressionAsString, float(secondNumber))
+
 **Example Use:**
 ```
 from Taschenrechner import Calculator
