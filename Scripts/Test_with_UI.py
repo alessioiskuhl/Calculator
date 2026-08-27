@@ -16,10 +16,10 @@ Label_Zahl1.place(x = 5, y = 5)
 Entry_Zahl1 = tk.Entry(frame)
 Entry_Zahl1.place(x = 5, y = 25)
 
-Label_operation = tk.Label(frame, text="Enter operation (+, -, *, /, **):")
+Label_operation = tk.Label(frame, text="Enter operation (+, -, *, /, **, %):")
 Label_operation.place(x = 5, y = 50)
 
-operations = ["+", "-", "*", "/", "**"]
+operations = ["+", "-", "*", "/", "**", "%"]
 selected_operation = tk.StringVar()
 Entry_operation = ttk.Combobox(frame, textvariable=selected_operation, values=operations)
 Entry_operation.place(x = 5, y = 70)

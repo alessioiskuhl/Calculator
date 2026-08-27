@@ -11,6 +11,8 @@ class Calculator:
             calc_type = 4
         elif types == "**" or types == "power":
             calc_type = 5
+        elif types == "mod" or types == "%":
+            calc_type = 6
         result_msg = "Result: "
         if calc_type == 1:
             result = num1 + num2
@@ -30,5 +32,11 @@ class Calculator:
         elif calc_type == 5:
             result = num1 ** num2
             return result_msg + str(result)
+        elif calc_type == 6:
+            if num2 != 0:
+                result = num1 % num2
+                return result_msg + str(result)
+            else:
+                return "Error: Modulo by zero is not allowed."
         else:
-            return "Error: Invalid operation type. Please enter a valid operation (+, -, *, /, **) or (add, subtract, multiply, divide, power)."
+            return "Error: Invalid operation type. Please enter a valid operation (+, -, *, /, **, %) or (add, subtract, multiply, divide, power, mod)."
