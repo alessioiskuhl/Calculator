@@ -2,15 +2,17 @@
 A small Python calculator library for basic arithmetic operations.
 
 ## Features
-- calculating simple math (+, -, *, /, **, %)
-- usage as a library in another file
-- Three additional Python files to test the library and its functionality
+- Basic arithmetic operations (+, -, *, /, **, %)
+- Usage as a library in another file
+- Three example/test scripts
 - A CLI for simple and fast usage
 
 ## Technologies
+
 - Python
-- Tkinter (Included in python)
-- Python Package
+- Tkinter
+- setuptools
+- Python Packaging
 
 ## Installation
 1. Install at least Python 3.9  ([Python 3.14.7 Windows 64-bit installer](https://www.python.org/ftp/python/3.14.7/python-3.14.7-amd64.exe) | [Windows 3.14.7 32-bit installer](https://www.python.org/ftp/python/3.14.7/python-3.14.7.exe) | [Python 3.14.7 macOS installer](https://www.python.org/ftp/python/3.14.7/python-3.14.7-macos11.pkg) | [All releases](https://www.python.org/downloads/))
@@ -20,6 +22,20 @@ A small Python calculator library for basic arithmetic operations.
 ### CLI
 1. Open a terminal of your choice
 2. Make a calculation with the following format: ` calculator <number> <operator> <number> `
+
+Example CLI:
+```bash
+calculator 10 + 5
+```
+```bash
+calculator 10 * 5
+```
+```bash
+calculator 2 ** 8
+```
+```bash
+calculator 10 % 3
+``` 
 
 ### Inside a script
 1. Type ` from calculator import Calculator ` at the beginning of your script to import the library into your script or use one of the three test scripts
@@ -70,8 +86,12 @@ When running this file, a simple window should open letting you type in the numb
 - You can import a class from another python file into your script basically turning it into a library
 - When importing a class into your script yoou need to make sure every function inside the class has **self** as the first expression to avoid problems at usage
 - Proper file organization on GitHub
-- Turning a python file into a proper library installable with git clone
+- Turning a Python file into a proper installable Python package
 - Creating a CLI
 
 > [!NOTE]
-> This project was created with the help of AI, although I only used AI for learning structure, python packages etc. not for the coding
+> This project was developed with the help of AI. AI was used for learning about Python package structure, packaging concepts and related topics, but the application code was written by me.
+
+## Status
+
+**Completed – v1.0.0**
