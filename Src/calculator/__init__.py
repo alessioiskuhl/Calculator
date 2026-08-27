@@ -1,1 +1,1 @@
-from .calculator import Calculator
+from Src.calculator.Calculator import Calculator
