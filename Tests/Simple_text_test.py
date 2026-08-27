@@ -1,4 +1,4 @@
-from Calculator import Calculator
+from calculator import Calculator
 
 calc = Calculator()
 calculation = input("Enter your calculation in the format: num1 operation num2 (e.g., 5 + 3): ")
